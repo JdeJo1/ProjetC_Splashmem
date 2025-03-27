@@ -9,6 +9,7 @@ all: players $(EXE)
 
 $(EXE): $(OBJS)
 	gcc $(OBJS) $(LDFLAGS) -o $(EXE)
+	cd players && $(MAKE) -f Makefile all
 
 %.o: %.c $(HDRS)
 	gcc $(CFLAGS) -c $< -o $@
