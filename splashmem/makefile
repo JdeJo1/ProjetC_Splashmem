@@ -13,8 +13,8 @@ $(EXE): $(OBJS)
 %.o: %.c $(HDRS)
 	gcc $(CFLAGS) -c $< -o $@
 
-players:
-	cd players && $(MAKE) -f Makefile
+Players:
+	cd players && $(MAKE) -f Makefile all
 
 clean_pl:
 	cd players && $(MAKE) -f Makefile clean

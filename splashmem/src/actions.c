@@ -3,7 +3,7 @@
 
 void actions_init()
 {
-    //je savais pas quoi init 
+    //je sais pas quoi init 
 }
 
 void actions_do(t_player *p_player, enum action act_id)
