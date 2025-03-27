@@ -12,7 +12,6 @@ sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev
 # Compile
 ```
 make all
-make Players
 ```
 Le makefile va compiler tous les fichiers .c et .h du projet
 
